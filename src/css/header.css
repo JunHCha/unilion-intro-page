@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.top-header {
+  height: 12rem;
+  text-align: center;
+  background-color: #f4f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.top-header-text {
+  margin: 0 2rem;
+  line-height: 12rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 5rem;
+  padding: 1rem 0rem 0 10rem;
+  color: #aaaaaa;
+
+  line-height: 4rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #a4ebf3;
+}
+
+.home,
+.members {
+  margin: 0 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.home:hover,
+.members:hover {
+  background-color: #f4f9f9;
+  color: #6b6b6b;
+}

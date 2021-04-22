@@ -1,0 +1,53 @@
+.content-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #f4f9f9;
+}
+.member {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f4f9f9;
+}
+.card {
+  margin: 5rem;
+  border-color: #a4ebf3;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.card-title {
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 1px solid #aaaaaa;
+}
+.card-text {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+.btn-primary {
+  margin-top: 2rem;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #a4ebf3;
+  border-color: #a4ebf3;
+}
+
+.btn-primary:hover {
+  background-color: #67e2f0;
+  border-color: #a4ebf3;
+  color: #6b6b6b;
+}
+
+#curriculum {
+  margin: 0 auto;
+  width: 70%;
+}

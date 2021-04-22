@@ -1,0 +1,41 @@
+html,
+body,
+div,
+span,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: "Open Sans", "Noto Sans KR", sans-serif;
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  font-size: 62.5%;
+  background-color: #ccf2f4;
+}
+
+ul,
+ol,
+li,
+a {
+  list-style: none;
+  color: #000;
+}
